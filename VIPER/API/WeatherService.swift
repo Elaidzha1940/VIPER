@@ -1,9 +1,11 @@
+//  /*
 //
-//  WeatherService.swift
-//  VIPER
+//  Project: VIPER
+//  File: WeatherService.swift
+//  Created by: Elaidzha Shchukin
+//  Date: 13.03.2024
 //
-//  Created by Elaidzha Shchukin on 13.03.2024.
-//
+//  */
 
 import UIKit
 

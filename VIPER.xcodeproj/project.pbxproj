@@ -15,6 +15,8 @@
 		E41730782BA0CBF2009B1F28 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = E41730772BA0CBF2009B1F28 /* Base */; };
 		E435EC3F2BA1080C00AF165B /* DateService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E435EC3E2BA1080C00AF165B /* DateService.swift */; };
 		E435EC412BA1084000AF165B /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E435EC402BA1084000AF165B /* WeatherService.swift */; };
+		E435EC442BA1195E00AF165B /* OnboardingPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E435EC432BA1195E00AF165B /* OnboardingPresenter.swift */; };
+		E435EC462BA11B6500AF165B /* OnboardingRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E435EC452BA11B6500AF165B /* OnboardingRouter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		E41730792BA0CBF2009B1F28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E435EC3E2BA1080C00AF165B /* DateService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateService.swift; sourceTree = "<group>"; };
 		E435EC402BA1084000AF165B /* WeatherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherService.swift; sourceTree = "<group>"; };
+		E435EC432BA1195E00AF165B /* OnboardingPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPresenter.swift; sourceTree = "<group>"; };
+		E435EC452BA11B6500AF165B /* OnboardingRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingRouter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,10 +64,10 @@
 		E417306A2BA0CBF1009B1F28 /* VIPER */ = {
 			isa = PBXGroup;
 			children = (
+				E435EC422BA117FF00AF165B /* Onboarding */,
 				E435EC3D2BA107FC00AF165B /* API */,
 				E417307F2BA0CBFB009B1F28 /* Application */,
 				E41730802BA0CC79009B1F28 /* Resources */,
-				E417306F2BA0CBF1009B1F28 /* ViewController.swift */,
 			);
 			path = VIPER;
 			sourceTree = "<group>";
@@ -95,6 +99,16 @@
 				E435EC402BA1084000AF165B /* WeatherService.swift */,
 			);
 			path = API;
+			sourceTree = "<group>";
+		};
+		E435EC422BA117FF00AF165B /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				E417306F2BA0CBF1009B1F28 /* ViewController.swift */,
+				E435EC432BA1195E00AF165B /* OnboardingPresenter.swift */,
+				E435EC452BA11B6500AF165B /* OnboardingRouter.swift */,
+			);
+			path = Onboarding;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -171,6 +185,8 @@
 				E435EC412BA1084000AF165B /* WeatherService.swift in Sources */,
 				E41730702BA0CBF1009B1F28 /* ViewController.swift in Sources */,
 				E417306C2BA0CBF1009B1F28 /* AppDelegate.swift in Sources */,
+				E435EC462BA11B6500AF165B /* OnboardingRouter.swift in Sources */,
+				E435EC442BA1195E00AF165B /* OnboardingPresenter.swift in Sources */,
 				E417306E2BA0CBF1009B1F28 /* SceneDelegate.swift in Sources */,
 				E435EC3F2BA1080C00AF165B /* DateService.swift in Sources */,
 			);

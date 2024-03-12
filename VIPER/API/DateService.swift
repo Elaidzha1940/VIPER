@@ -1,9 +1,11 @@
+//  /*
 //
-//  DateService.swift
-//  VIPER
+//  Project: VIPER
+//  File: DateService.swift
+//  Created by: Elaidzha Shchukin
+//  Date: 13.03.2024
 //
-//  Created by Elaidzha Shchukin on 13.03.2024.
-//
+//  */
 
 import Foundation
 
