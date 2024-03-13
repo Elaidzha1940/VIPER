@@ -10,7 +10,9 @@
 import Foundation
 
 protocol OnboardingPresenterProtocol: AnyObject {
-     
+    func viewDidLoaded()
+    func didLoad(date: String?)
+    func didLoad(weather: Int?)
 }
 
 class OnboardingPresenter {
@@ -25,5 +27,16 @@ class OnboardingPresenter {
 }
 
 extension OnboardingPresenter: OnboardingPresenterProtocol {
+    func viewDidLoaded () {
+        interactor.loadDate()
+        interactor.loadWeather()
+    }
     
+    func didLoad(date: String?) {
+        
+    }
+    
+    func didLoad(weather: Int?) {
+        
+    }
 }
