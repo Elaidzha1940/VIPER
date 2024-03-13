@@ -1,7 +1,7 @@
 //  /*
 //
 //  Project: VIPER
-//  File: ViewController.swift
+//  File: OnboardingViewController.swift
 //  Created by: Elaidzha Shchukin
 //  Date: 12.03.2024
 //
@@ -13,7 +13,7 @@ protocol OnboardingViewProtocol: AnyObject {
     
 }
 
-class ViewController: UIViewController {
+class OnboardingViewController: UIViewController {
     var presenter: OnboardingViewProtocol?
 
     override func viewDidLoad() {
@@ -22,6 +22,6 @@ class ViewController: UIViewController {
     }
 }
 
-extension ViewController: OnboardingViewProtocol {
+extension OnboardingViewController: OnboardingViewProtocol {
     
 }

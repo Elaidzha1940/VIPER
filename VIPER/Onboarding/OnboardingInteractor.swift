@@ -1,7 +1,7 @@
 //  /*
 //
 //  Project: VIPER
-//  File: OnboardingRouter.swift
+//  File: OnboardingInteractor.swift
 //  Created by: Elaidzha Shchukin
 //  Date: 13.03.2024
 //
@@ -9,10 +9,10 @@
 
 import Foundation
 
-protocol OnboardingRouterProtocol: AnyObject {
+protocol OnboardingInteractorProtocol: AnyObject {
     
 }
 
-class OnboardingRouter: OnboardingRouterProtocol {
+class OnboardingInteractor: OnboardingInteractorProtocol {
     weak var presenter: OnboardingPresenterProtocol?
 }
