@@ -33,10 +33,11 @@ extension OnboardingPresenter: OnboardingPresenterProtocol {
     }
     
     func didLoad(date: String?) {
-        
+        view?.showDate(date: date ?? "Sorry, no date!")
     }
     
     func didLoad(weather: Int?) {
-        
+        let temperature = weather?.description ?? "Sorry, no temperature "
+        view?.showWeather(weather: temperature)
     }
 }

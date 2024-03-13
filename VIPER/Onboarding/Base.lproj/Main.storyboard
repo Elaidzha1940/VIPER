@@ -16,13 +16,43 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0k9-46-RvZ">
+                                <rect key="frame" x="55.666666666666657" y="200" width="282" height="20.333333333333343"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="282" id="dYC-Pf-DWD"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sBh-j2-YfY">
+                                <rect key="frame" x="55.666666666666657" y="351" width="282" height="20.333333333333314"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="282" id="xtr-Rp-iYt"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="sBh-j2-YfY" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="ED2-je-dlE"/>
+                            <constraint firstItem="sBh-j2-YfY" firstAttribute="top" secondItem="0k9-46-RvZ" secondAttribute="bottom" constant="130.66666666666666" id="PTU-tr-ZXI"/>
+                            <constraint firstItem="0k9-46-RvZ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="141" id="QNk-Wq-pSJ"/>
+                            <constraint firstItem="0k9-46-RvZ" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="xDa-Od-tHe"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="dateLabel" destination="0k9-46-RvZ" id="ykY-sW-m9s"/>
+                        <outlet property="weatherLabel" destination="sBh-j2-YfY" id="Zza-pE-rXX"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="123" y="-2"/>
+            <point key="canvasLocation" x="122.90076335877862" y="-2.1126760563380285"/>
         </scene>
     </scenes>
     <resources>

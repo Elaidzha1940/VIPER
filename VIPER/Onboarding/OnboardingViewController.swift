@@ -15,6 +15,8 @@ protocol OnboardingViewProtocol: AnyObject {
 }
 
 class OnboardingViewController: UIViewController {
+    @IBOutlet weak var dateLabel: UILabel!
+    @IBOutlet weak var weatherLabel: UILabel!
     var presenter: OnboardingPresenterProtocol?
 
     override func viewDidLoad() {
@@ -25,12 +27,14 @@ class OnboardingViewController: UIViewController {
 
 extension OnboardingViewController: OnboardingViewProtocol {
     func showDate(date: String) {
-        <#code#>
+        DispatchQueue.main.async { [self] in
+            dateLabel.text = date
+        }
     }
     
     func showWeather(weather: String) {
-        <#code#>
+        DispatchQueue.main.async { [self] in
+            weatherLabel.text = weather
+        }
     }
-    
-    
 }
