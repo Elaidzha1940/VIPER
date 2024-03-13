@@ -7,15 +7,23 @@
 //
 //  */
 
-import Foundation
+import UIKit
+
+protocol ImageViewerPresenterProtocol: AnyObject {
+    
+}
 
 class ImageViewerPresenter {
-    weak var view: OnboardingViewProtocol?
-    var router: OnboardingRouterProtocol
-    var interactor: OnboardingInteractorProtocol
+    weak var view: ImageViewerViewProtocol?
+    var router: ImageViewerRouterProtocol
+    var interactor: ImageViewerInteractorProtocol
     
-    init(interactor: OnboardingInteractorProtocol, router: OnboardingRouterProtocol) {
+    init(interactor: ImageViewerInteractorProtocol, router: ImageViewerRouterProtocol) {
         self.interactor = interactor
         self.router = router
     }
+}
+
+extension ImageViewerPresenter: ImageViewerPresenterProtocol{
+    
 }

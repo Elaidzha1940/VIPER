@@ -18,7 +18,7 @@ class OnboardingViewController: UIViewController {
     @IBOutlet weak var dateLabel: UILabel!
     @IBOutlet weak var weatherLabel: UILabel!
     var presenter: OnboardingPresenterProtocol?
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         presenter?.viewDidLoaded()

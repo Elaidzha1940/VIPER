@@ -9,6 +9,10 @@
 
 import Foundation
 
-class ImageViewerRouter: OnboardingRouterProtocol {
-    weak var presenter: OnboardingPresenterProtocol?
+protocol ImageViewerRouterProtocol {
+    
+}
+
+class ImageViewerRouter: ImageViewerRouterProtocol {
+    weak var presenter: ImageViewerViewController?
 }

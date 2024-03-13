@@ -130,12 +130,12 @@
 		E435EC422BA117FF00AF165B /* Onboarding */ = {
 			isa = PBXGroup;
 			children = (
-				E41730712BA0CBF1009B1F28 /* Main.storyboard */,
 				E417306F2BA0CBF1009B1F28 /* OnboardingViewController.swift */,
 				E435EC472BA1232C00AF165B /* OnboardingInteractor.swift */,
 				E435EC432BA1195E00AF165B /* OnboardingPresenter.swift */,
 				E435EC452BA11B6500AF165B /* OnboardingRouter.swift */,
 				E435EC492BA1244B00AF165B /* OnboardingModuleBuilder.swift */,
+				E41730712BA0CBF1009B1F28 /* Main.storyboard */,
 			);
 			path = Onboarding;
 			sourceTree = "<group>";

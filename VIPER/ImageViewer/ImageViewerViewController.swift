@@ -9,11 +9,29 @@
 
 import UIKit
 
-class ImageViewerViewController: UIViewController {
-    var presenter: OnboardingPresenterProtocol?
+protocol ImageViewerViewProtocol: AnyObject {
+    
+}
 
+class ImageViewerViewController: UIViewController {
+    //MARK: - Public
+    var presenter: ImageViewerPresenterProtocol?
+    
+    //MARK: - View Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
-        presenter?.viewDidLoaded()
+        initialize()
     }
+}
+
+//MARK: - Private function
+private extension ImageViewerViewController {
+    func initialize() {
+        //
+    }
+}
+
+//MARK: - ImageViewerViewProtocol
+extension ImageViewerViewController: ImageViewerViewProtocol {
+    
 }
