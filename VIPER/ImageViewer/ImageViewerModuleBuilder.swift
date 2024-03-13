@@ -1,7 +1,7 @@
 //  /*
 //
 //  Project: VIPER
-//  File: OnboardingModelBuilder.swift
+//  File: ImageViewerModuleBuilder.swift
 //  Created by: Elaidzha Shchukin
 //  Date: 13.03.2024
 //
@@ -9,7 +9,7 @@
 
 import UIKit
 
-class OnboardingModelBuilder {
+class ImageViewerModuleBuilder {
     static func build() -> OnboardingViewController {
         let interactor = OnboardingInteractor()
         let router = OnboardingRouter()

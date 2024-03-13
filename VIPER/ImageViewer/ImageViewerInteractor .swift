@@ -1,7 +1,7 @@
 //  /*
 //
 //  Project: VIPER
-//  File: OnboardingInteractor.swift
+//  File: ImageViewerInteractor.swift
 //  Created by: Elaidzha Shchukin
 //  Date: 13.03.2024
 //
@@ -9,12 +9,7 @@
 
 import Foundation
 
-protocol OnboardingInteractorProtocol: AnyObject {
-    func loadDate()
-    func loadWeather()
-}
-
-class OnboardingInteractor: OnboardingInteractorProtocol {
+class ImageViewerInteractor: OnboardingInteractorProtocol {
     weak var presenter: OnboardingPresenterProtocol?
     let dateService = DateService()
     let weatherService = WeatherService()
@@ -31,4 +26,3 @@ class OnboardingInteractor: OnboardingInteractorProtocol {
         }
     }
 }
-

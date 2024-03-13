@@ -13,12 +13,17 @@
 		E41730732BA0CBF1009B1F28 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = E41730722BA0CBF1009B1F28 /* Base */; };
 		E41730752BA0CBF2009B1F28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E41730742BA0CBF2009B1F28 /* Assets.xcassets */; };
 		E41730782BA0CBF2009B1F28 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = E41730772BA0CBF2009B1F28 /* Base */; };
+		E42A9D042BA205EF006F64C3 /* ImageViewerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42A9D032BA205EF006F64C3 /* ImageViewerViewController.swift */; };
+		E42A9D062BA20669006F64C3 /* ImageViewerInteractor .swift in Sources */ = {isa = PBXBuildFile; fileRef = E42A9D052BA20669006F64C3 /* ImageViewerInteractor .swift */; };
+		E42A9D082BA20684006F64C3 /* ImageViewerPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42A9D072BA20684006F64C3 /* ImageViewerPresenter.swift */; };
+		E42A9D0A2BA2069D006F64C3 /* ImageViewerRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42A9D092BA2069D006F64C3 /* ImageViewerRouter.swift */; };
+		E42A9D0C2BA206B9006F64C3 /* ImageViewerModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42A9D0B2BA206B9006F64C3 /* ImageViewerModuleBuilder.swift */; };
 		E435EC3F2BA1080C00AF165B /* DateService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E435EC3E2BA1080C00AF165B /* DateService.swift */; };
 		E435EC412BA1084000AF165B /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E435EC402BA1084000AF165B /* WeatherService.swift */; };
 		E435EC442BA1195E00AF165B /* OnboardingPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E435EC432BA1195E00AF165B /* OnboardingPresenter.swift */; };
 		E435EC462BA11B6500AF165B /* OnboardingRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E435EC452BA11B6500AF165B /* OnboardingRouter.swift */; };
 		E435EC482BA1232C00AF165B /* OnboardingInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E435EC472BA1232C00AF165B /* OnboardingInteractor.swift */; };
-		E435EC4A2BA1244B00AF165B /* OnboardingModelBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E435EC492BA1244B00AF165B /* OnboardingModelBuilder.swift */; };
+		E435EC4A2BA1244B00AF165B /* OnboardingModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E435EC492BA1244B00AF165B /* OnboardingModuleBuilder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,12 +35,17 @@
 		E41730742BA0CBF2009B1F28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E41730772BA0CBF2009B1F28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E41730792BA0CBF2009B1F28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E42A9D032BA205EF006F64C3 /* ImageViewerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewerViewController.swift; sourceTree = "<group>"; };
+		E42A9D052BA20669006F64C3 /* ImageViewerInteractor .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ImageViewerInteractor .swift"; sourceTree = "<group>"; };
+		E42A9D072BA20684006F64C3 /* ImageViewerPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewerPresenter.swift; sourceTree = "<group>"; };
+		E42A9D092BA2069D006F64C3 /* ImageViewerRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewerRouter.swift; sourceTree = "<group>"; };
+		E42A9D0B2BA206B9006F64C3 /* ImageViewerModuleBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewerModuleBuilder.swift; sourceTree = "<group>"; };
 		E435EC3E2BA1080C00AF165B /* DateService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateService.swift; sourceTree = "<group>"; };
 		E435EC402BA1084000AF165B /* WeatherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherService.swift; sourceTree = "<group>"; };
 		E435EC432BA1195E00AF165B /* OnboardingPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPresenter.swift; sourceTree = "<group>"; };
 		E435EC452BA11B6500AF165B /* OnboardingRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingRouter.swift; sourceTree = "<group>"; };
 		E435EC472BA1232C00AF165B /* OnboardingInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingInteractor.swift; sourceTree = "<group>"; };
-		E435EC492BA1244B00AF165B /* OnboardingModelBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingModelBuilder.swift; sourceTree = "<group>"; };
+		E435EC492BA1244B00AF165B /* OnboardingModuleBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingModuleBuilder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +109,11 @@
 		E4233EDB2BA1D3980093ACCD /* ImageViewer */ = {
 			isa = PBXGroup;
 			children = (
+				E42A9D032BA205EF006F64C3 /* ImageViewerViewController.swift */,
+				E42A9D052BA20669006F64C3 /* ImageViewerInteractor .swift */,
+				E42A9D072BA20684006F64C3 /* ImageViewerPresenter.swift */,
+				E42A9D092BA2069D006F64C3 /* ImageViewerRouter.swift */,
+				E42A9D0B2BA206B9006F64C3 /* ImageViewerModuleBuilder.swift */,
 			);
 			path = ImageViewer;
 			sourceTree = "<group>";
@@ -117,10 +132,10 @@
 			children = (
 				E41730712BA0CBF1009B1F28 /* Main.storyboard */,
 				E417306F2BA0CBF1009B1F28 /* OnboardingViewController.swift */,
+				E435EC472BA1232C00AF165B /* OnboardingInteractor.swift */,
 				E435EC432BA1195E00AF165B /* OnboardingPresenter.swift */,
 				E435EC452BA11B6500AF165B /* OnboardingRouter.swift */,
-				E435EC472BA1232C00AF165B /* OnboardingInteractor.swift */,
-				E435EC492BA1244B00AF165B /* OnboardingModelBuilder.swift */,
+				E435EC492BA1244B00AF165B /* OnboardingModuleBuilder.swift */,
 			);
 			path = Onboarding;
 			sourceTree = "<group>";
@@ -197,13 +212,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				E435EC412BA1084000AF165B /* WeatherService.swift in Sources */,
+				E42A9D0C2BA206B9006F64C3 /* ImageViewerModuleBuilder.swift in Sources */,
 				E41730702BA0CBF1009B1F28 /* OnboardingViewController.swift in Sources */,
+				E42A9D0A2BA2069D006F64C3 /* ImageViewerRouter.swift in Sources */,
+				E42A9D082BA20684006F64C3 /* ImageViewerPresenter.swift in Sources */,
 				E417306C2BA0CBF1009B1F28 /* AppDelegate.swift in Sources */,
-				E435EC4A2BA1244B00AF165B /* OnboardingModelBuilder.swift in Sources */,
+				E435EC4A2BA1244B00AF165B /* OnboardingModuleBuilder.swift in Sources */,
 				E435EC482BA1232C00AF165B /* OnboardingInteractor.swift in Sources */,
 				E435EC462BA11B6500AF165B /* OnboardingRouter.swift in Sources */,
+				E42A9D062BA20669006F64C3 /* ImageViewerInteractor .swift in Sources */,
 				E435EC442BA1195E00AF165B /* OnboardingPresenter.swift in Sources */,
 				E417306E2BA0CBF1009B1F28 /* SceneDelegate.swift in Sources */,
+				E42A9D042BA205EF006F64C3 /* ImageViewerViewController.swift in Sources */,
 				E435EC3F2BA1080C00AF165B /* DateService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
