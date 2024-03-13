@@ -10,10 +10,11 @@
 import UIKit
 
 protocol ImageViewerViewProtocol: AnyObject {
-    
+    func showImage(image: UIImage?)
 }
 
 class ImageViewerViewController: UIViewController {
+    @IBOutlet weak var imageView: UIImageView!
     //MARK: - Public
     var presenter: ImageViewerPresenterProtocol?
     
@@ -33,5 +34,9 @@ private extension ImageViewerViewController {
 
 //MARK: - ImageViewerViewProtocol
 extension ImageViewerViewController: ImageViewerViewProtocol {
-    
+    func showImage(image: UIImage?) {
+        DispatchQueue.main.async {
+            self.imageView.image = image
+        }
+    }
 }

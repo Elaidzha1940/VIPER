@@ -14,5 +14,5 @@ protocol OnboardingRouterProtocol: AnyObject {
 }
 
 class OnboardingRouter: OnboardingRouterProtocol {
-    weak var presenter: OnboardingPresenterProtocol?
+    weak var viewController: OnboardingViewController?
 }
