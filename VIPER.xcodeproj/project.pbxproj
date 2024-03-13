@@ -68,6 +68,7 @@
 		E417306A2BA0CBF1009B1F28 /* VIPER */ = {
 			isa = PBXGroup;
 			children = (
+				E4233EDB2BA1D3980093ACCD /* ImageViewer */,
 				E435EC422BA117FF00AF165B /* Onboarding */,
 				E435EC3D2BA107FC00AF165B /* API */,
 				E417307F2BA0CBFB009B1F28 /* Application */,
@@ -93,6 +94,13 @@
 				E41730792BA0CBF2009B1F28 /* Info.plist */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		E4233EDB2BA1D3980093ACCD /* ImageViewer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ImageViewer;
 			sourceTree = "<group>";
 		};
 		E435EC3D2BA107FC00AF165B /* API */ = {
