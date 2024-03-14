@@ -24,11 +24,11 @@ class ImageViewerInteractor: ImageViewerInteractorProtocol {
     
     func getImageForCurrentTemperature() -> UIImage? {
         if temperature < 0 {
-            return UIImage(systemName: "snowflakes")
+            return UIImage(systemName: "snowflake.circle.fill")
         } else if temperature >= 0, temperature < 10 {
             return UIImage(systemName: "cloud.fill")
         } else {
-            return UIImage(systemName: "sun.min.fill")
+            return UIImage(systemName: "cloud.sun.fill")
         }
     }
 }

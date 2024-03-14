@@ -1,6 +1,6 @@
 //  /*
 //
-//  Project:
+//  Project: VIPER
 //  File: ImageViewerModuleBuilder.swift
 //  Created by: Elaidzha Shchukin
 //  Date: 13.03.2024
