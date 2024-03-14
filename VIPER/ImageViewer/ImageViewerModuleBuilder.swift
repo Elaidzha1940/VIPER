@@ -1,6 +1,6 @@
 //  /*
 //
-//  Project: VIPER
+//  Project:
 //  File: ImageViewerModuleBuilder.swift
 //  Created by: Elaidzha Shchukin
 //  Date: 13.03.2024
@@ -16,8 +16,8 @@ class ImageViewerModuleBuilder {
         let presenter = ImageViewerPresenter(interactor: interactor, router: router)
         let storyboard = UIStoryboard(name: "ImageViewer", bundle: nil)
         let viewController = storyboard.instantiateViewController(withIdentifier: "ImageViewer") as! ImageViewerViewController
-        viewController.presenter = presenter
         presenter.view = viewController
+        viewController.presenter = presenter
         interactor.presenter = presenter
         router.viewController = viewController
         return viewController
