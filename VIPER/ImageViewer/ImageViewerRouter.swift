@@ -14,5 +14,5 @@ protocol ImageViewerRouterProtocol {
 }
 
 class ImageViewerRouter: ImageViewerRouterProtocol {
-    weak var presenter: ImageViewerViewController?
+    weak var viewController: ImageViewerViewController?
 }

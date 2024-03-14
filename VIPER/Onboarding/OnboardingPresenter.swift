@@ -11,6 +11,7 @@ import Foundation
 
 protocol OnboardingPresenterProtocol: AnyObject {
     func viewDidLoaded()
+    func didTapImageButton()
     func didLoad(date: String?)
     func didLoad(weather: Int?)
 }
@@ -27,6 +28,11 @@ class OnboardingPresenter {
 }
 
 extension OnboardingPresenter: OnboardingPresenterProtocol {
+    func didTapImageButton() {
+        let temperature = interactor.temperature
+        router.openImage(for: temperature)
+    }
+    
     func viewDidLoaded () {
         interactor.loadDate()
         interactor.loadWeather()

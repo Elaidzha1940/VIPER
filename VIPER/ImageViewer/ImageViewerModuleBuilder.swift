@@ -14,12 +14,12 @@ class ImageViewerModuleBuilder {
         let interactor = ImageViewerInteractor(temperature: temperature)
         let router = ImageViewerRouter()
         let presenter = ImageViewerPresenter(interactor: interactor, router: router)
-        let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        let viewController = storyboard.instantiateViewController(withIdentifier: "Main") as! ImageViewerViewController
+        let storyboard = UIStoryboard(name: "ImageViewer", bundle: nil)
+        let viewController = storyboard.instantiateViewController(withIdentifier: "ImageViewer") as! ImageViewerViewController
         viewController.presenter = presenter
         presenter.view = viewController
         interactor.presenter = presenter
-        router.presenter = viewController
+        router.viewController = viewController
         return viewController
     }
 }

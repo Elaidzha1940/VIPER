@@ -23,6 +23,10 @@ class OnboardingViewController: UIViewController {
         super.viewDidLoad()
         presenter?.viewDidLoaded()
     }
+    
+    @IBAction func didTapImageButton(_ sender: Any) {
+        presenter?.didTapImageButton()
+    }
 }
 
 extension OnboardingViewController: OnboardingViewProtocol {
