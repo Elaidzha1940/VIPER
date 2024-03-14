@@ -5,6 +5,7 @@ VIPER (View, Interactor, Presenter, Entity, Router) is a modular and scalable ar
 ---------------------------------
 
 https://github.com/Elaidzha1940/VIPER/assets/64445918/0cb0a262-5edc-44dd-a549-a82e825b1c84
+
 ------
 
 - View: Displays the user interface and reacts to user actions. It doesn't contain business logic but forwards user actions to the presenter.
