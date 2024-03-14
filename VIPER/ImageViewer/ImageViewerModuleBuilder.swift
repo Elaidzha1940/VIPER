@@ -10,8 +10,8 @@
 import UIKit
 
 class ImageViewerModuleBuilder {
-    static func build() -> ImageViewerViewController {
-        let interactor = ImageViewerInteractor()
+    static func build(temperature: Int) -> ImageViewerViewController {
+        let interactor = ImageViewerInteractor(temperature: temperature)
         let router = ImageViewerRouter()
         let presenter = ImageViewerPresenter(interactor: interactor, router: router)
         let storyboard = UIStoryboard(name: "Main", bundle: nil)

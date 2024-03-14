@@ -21,6 +21,7 @@ class ImageViewerViewController: UIViewController {
     //MARK: - View Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
+        presenter?.viewDidLoaded() 
         initialize()
     }
 }
