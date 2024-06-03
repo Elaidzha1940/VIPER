@@ -3,7 +3,6 @@ VIPER - Clean Swift Architecture.
 
 VIPER (View, Interactor, Presenter, Entity, Router) is a modular and scalable architecture pattern for iOS applications. 
 It divides the app into modules, each with its specific role:
----------------------------------
 
 https://github.com/Elaidzha1940/VIPER/assets/64445918/0cb0a262-5edc-44dd-a549-a82e825b1c84
 
